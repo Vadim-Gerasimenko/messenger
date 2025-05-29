@@ -1,0 +1,38 @@
+.messenger-content {
+    height: 60vh;
+}
+
+.messenger-text-area {
+    resize: none;
+}
+
+.card.message {
+    display: inline-block;
+    min-width: 7%;
+    max-width: 70%;
+    border-radius: 18px;
+}
+
+.time {
+    font-size: 0.6em;
+}
+
+.sent-media {
+    max-width: 100%;
+}
+
+.file-attachment:hover {
+    background-color: #f0f7ff !important;
+}
+
+.file-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    flex-shrink: 0;
+}
